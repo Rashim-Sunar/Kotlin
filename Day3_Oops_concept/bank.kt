@@ -5,9 +5,9 @@ fun main(args : Array<String>){
     
     println("Balance is ${aakashAccount.calculateBalance()}")
     
-  }
+}
   
-  class Account(val accountHolder : String){
+class Account(val accountHolder : String){
     private var balance = 0
     var transaction = mutableListOf<Int>()
     
@@ -42,4 +42,4 @@ fun main(args : Array<String>){
       }
       return this.balance
     }
-  }
+}
